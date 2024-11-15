@@ -1,0 +1,1835 @@
+!SESSION 2024-11-09 16:36:16.206 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file D:\Nitin_Projects\RestApi\.metadata\.bak_0.log
+Created Time: 2024-11-10 09:49:29.699
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 09:49:29.700
+!MESSAGE Classpath changed for project: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-10 10:02:55.452
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:365)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:331)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-11-10 11:14:22.141 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-10 11:14:28.269
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-10 11:14:30.428
+!MESSAGE Logback config file: D:\Nitin_Projects\RestApi\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-10 11:14:31.139
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-10 11:14:31.139
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-10 11:14:31.705
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-10 11:14:31.705
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-10 11:14:38.351
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xps'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.366
+!MESSAGE Boot project ADDED: 01-SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.367
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.437
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-10 11:14:38.484
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Nitin_Projects/RestApi/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731217478483
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.486
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-10 11:14:38.498
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13912
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.758
+!MESSAGE Boot project ADDED: 02-SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.759
+!MESSAGE Boot project ADDED: 03-SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.761
+!MESSAGE Boot project ADDED: 04-SpringCloudOrderService-LoadBalancer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.763
+!MESSAGE Boot project ADDED: 05-SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.764
+!MESSAGE Boot project ADDED: 06-SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.765
+!MESSAGE Boot project ADDED: 07-SpringCloudSchedularServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.767
+!MESSAGE Boot project ADDED: 08-springadminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.768
+!MESSAGE Boot project ADDED: 09-SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.769
+!MESSAGE Boot project ADDED: 10-SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.770
+!MESSAGE Boot project ADDED: 11-SpringConsumerApp2-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.771
+!MESSAGE Boot project ADDED: 12-SpringConsumerApp3-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.773
+!MESSAGE Boot project ADDED: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.774
+!MESSAGE Boot project ADDED: SpringAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.775
+!MESSAGE Boot project ADDED: SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.776
+!MESSAGE Boot project ADDED: SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.778
+!MESSAGE Boot project ADDED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.780
+!MESSAGE Boot project ADDED: SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.782
+!MESSAGE Boot project ADDED: SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.784
+!MESSAGE Boot project ADDED: SpringCloudOrderService-LoadBalancerClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.785
+!MESSAGE Boot project ADDED: SpringCloudSchedulerService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.786
+!MESSAGE Boot project ADDED: SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.788
+!MESSAGE Boot project ADDED: SpringKafaProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:14:38.789
+!MESSAGE Boot project ADDED: SpringProviderApp-MQ
+!SESSION 2024-11-10 11:19:23.535 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-10 11:19:26.793
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-10 11:19:28.441
+!MESSAGE Logback config file: D:\Nitin_Projects\RestApi\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-10 11:19:29.073
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-10 11:19:29.073
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-10 11:19:29.447
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-10 11:19:29.447
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-10 11:19:34.612
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Nitin_Projects/RestApi/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731217774611
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:34.613
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-10 11:19:34.624
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13100
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.513
+!MESSAGE Boot project ADDED: 01-SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.517
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.519
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.533
+!MESSAGE Boot project ADDED: 02-SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.541
+!MESSAGE Boot project ADDED: 03-SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.552
+!MESSAGE Boot project ADDED: 04-SpringCloudOrderService-LoadBalancer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.565
+!MESSAGE Boot project ADDED: 05-SpringCloudOrderService-FeignClient
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-10 11:19:36.570
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xps'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.575
+!MESSAGE Boot project ADDED: 06-SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.583
+!MESSAGE Boot project ADDED: 07-SpringCloudSchedularServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.590
+!MESSAGE Boot project ADDED: 08-springadminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.598
+!MESSAGE Boot project ADDED: 09-SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.606
+!MESSAGE Boot project ADDED: 10-SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.612
+!MESSAGE Boot project ADDED: 11-SpringConsumerApp2-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.619
+!MESSAGE Boot project ADDED: 12-SpringConsumerApp3-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.627
+!MESSAGE Boot project ADDED: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.636
+!MESSAGE Boot project ADDED: SpringAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.643
+!MESSAGE Boot project ADDED: SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.649
+!MESSAGE Boot project ADDED: SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.657
+!MESSAGE Boot project ADDED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.664
+!MESSAGE Boot project ADDED: SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.672
+!MESSAGE Boot project ADDED: SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.678
+!MESSAGE Boot project ADDED: SpringCloudOrderService-LoadBalancerClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.684
+!MESSAGE Boot project ADDED: SpringCloudSchedulerService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.689
+!MESSAGE Boot project ADDED: SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.697
+!MESSAGE Boot project ADDED: SpringKafaProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-10 11:19:36.697
+!MESSAGE Boot project ADDED: SpringProviderApp-MQ
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-11-10 15:22:53.811
+!MESSAGE IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+!STACK 0
+java.util.concurrent.TimeoutException: IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:106)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1786)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2024-11-10 15:22:53.812
+!MESSAGE Thread that is running the IJobChangeListener: Output Stream Monitor for PID 12536 13-SpringKafkaProvider-MQ - Application
+	at org.eclipse.swt.internal.win32.OS.PostThreadMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.wakeThread(Display.java:5044)
+	at org.eclipse.swt.widgets.Synchronizer.addLast(Synchronizer.java:79)
+	at org.eclipse.swt.widgets.Synchronizer.asyncExec(Synchronizer.java:101)
+	at org.eclipse.ui.internal.UISynchronizer.asyncExec(UISynchronizer.java:112)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:783)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:123)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	at org.eclipse.ui.internal.progress.ProgressManager.addJobInfo(ProgressManager.java:709)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.updateFor(ProgressManager.java:500)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.scheduled(ProgressManager.java:474)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:153)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEventsAsync(JobListeners.java:140)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:551)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1407)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:396)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:654)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:698)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:281)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:276)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$StreamListener.streamAppended(ProcessConsole.java:810)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:171)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.fireStreamAppended(OutputStreamMonitor.java:168)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:256)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+All thread infos: 
+"main" prio=6 Id=1 BLOCKED on java.lang.Class@6d8b7ea9 owned by "Output Stream Monitor for PID 12536 13-SpringKafkaProvider-MQ - Application" Id=573
+	at org.eclipse.swt.widgets.Display.findDisplay(Display.java:1460)
+	-  blocked on java.lang.Class@6d8b7ea9
+	at org.eclipse.swt.widgets.Display.getCurrent(Display.java:1565)
+	at org.eclipse.swt.ole.win32.OleFrame.getMsgProc(OleFrame.java:190)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3668)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	...
+
+"Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@22.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@22.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@22.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@1f15da6c
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@1f15da6c
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at java.base@22.0.2/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@22.0.2/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@22.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+"Attach Listener" daemon prio=5 Id=12 RUNNABLE
+
+"Common-Cleaner" daemon prio=8 Id=20 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7e216d91
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7e216d91
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@22.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	...
+
+"Notification Thread" daemon prio=9 Id=21 RUNNABLE
+
+"Active Thread: Equinox Container: f0c8630a-3806-4dfd-b611-9bb8f30c7323" prio=5 Id=30 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@73d0bcca
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@73d0bcca
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Framework Event Dispatcher: Equinox Container: f0c8630a-3806-4dfd-b611-9bb8f30c7323" daemon prio=5 Id=32 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@4ee42063
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@4ee42063
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Start Level: Equinox Container: f0c8630a-3806-4dfd-b611-9bb8f30c7323" daemon prio=5 Id=33 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7f934569
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7f934569
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Bundle File Closer" daemon prio=5 Id=35 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@aabe2ef
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@aabe2ef
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"SCR Component Actor" daemon prio=5 Id=36 WAITING on java.util.LinkedList@7ceb399c
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.LinkedList@7ceb399c
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+
+"EMF Reference Cleaner" daemon prio=5 Id=38 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@13e3e95a
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@13e3e95a
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"Worker-JM" prio=5 Id=40 WAITING on java.util.ArrayList@76be4e42
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.ArrayList@76be4e42
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+
+"Gogo shell" prio=5 Id=42 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@235766e0
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@235766e0
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"Git Repository Closer" daemon prio=6 Id=46 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6559ccf
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6559ccf
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"VirtualThread-unparker" daemon prio=5 Id=49 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@a700c66
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@a700c66
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"JNA Cleaner" daemon prio=6 Id=51 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@e388f34
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@e388f34
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+"Java indexing" daemon prio=4 Id=52 WAITING on org.eclipse.jdt.internal.core.search.indexing.IndexManager@16c08875
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jdt.internal.core.search.indexing.IndexManager@16c08875
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:503)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager$$Lambda/0x000001a9be7f34a0.run(Unknown Source)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+
+"CompletableFutureDelayScheduler" daemon prio=6 Id=56 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3cd9cd86
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3cd9cd86
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"Stop Language Server Task Processor" prio=6 Id=60 TIMED_WAITING on java.util.TaskQueue@36c0e547
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.TaskQueue@36c0e547
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.util.TimerThread.mainLoop(Timer.java:568)
+	at java.base@22.0.2/java.util.TimerThread.run(Timer.java:521)
+
+"Consume LS error stream" daemon prio=6 Id=62 RUNNABLE (in native)
+	at java.base@22.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@22.0.2/java.io.FileInputStream.read(FileInputStream.java:263)
+	at org.springsource.ide.eclipse.commons.core.util.IOUtil.consume(IOUtil.java:26)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1.run(STS4LanguageServerProcessStreamConnector.java:69)
+
+"LS-org.eclipse.languageserver.languages.springboot#listener-0" prio=5 Id=64 RUNNABLE (in native)
+	at java.base@22.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@22.0.2/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@22.0.2/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base@22.0.2/java.io.BufferedInputStream.implRead(BufferedInputStream.java:325)
+	at java.base@22.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:312)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:82)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base@22.0.2/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	...
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.ThreadPoolExecutor$Worker@5f1e33d
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@7c4b8d84
+
+"EventAdmin Async Event Dispatcher Thread" daemon prio=6 Id=65 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@6e5a3158
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@6e5a3158
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"pool-4-thread-1" prio=5 Id=77 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1c1d74e8
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1c1d74e8
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"pool-5-thread-1" prio=5 Id=78 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2dc650f1
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2dc650f1
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"JGit-FileStoreAttributeReader-1" daemon prio=5 Id=81 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@d41cf60
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@d41cf60
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"LS-org.eclipse.languageserver.languages.springboot#dispatcher" prio=5 Id=87 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@322eef61
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@322eef61
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"Provisioning Event Dispatcher" daemon prio=5 Id=98 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@45e377f8
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@45e377f8
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Thread-14" prio=5 Id=100 TIMED_WAITING
+	at java.base@22.0.2/java.lang.Thread.sleepNanos0(Native Method)
+	at java.base@22.0.2/java.lang.Thread.sleepNanos(Thread.java:491)
+	at java.base@22.0.2/java.lang.Thread.sleep(Thread.java:522)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+"RMI Scheduler(0)" daemon prio=5 Id=110 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5a3df66d
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5a3df66d
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"pool-6-thread-1" prio=5 Id=250 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@59040885
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@59040885
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"Worker-32: Process Console Input Job" prio=5 Id=330 WAITING on org.eclipse.ui.console.IOConsoleInputStream@1c94b123
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@1c94b123
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:140)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:91)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:113)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"org.eclipse.jdt.internal.ui.text.JavaReconciler" daemon prio=1 Id=435 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@421649fe
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@421649fe
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"org.eclipse.jdt.internal.ui.text.JavaReconciler" daemon prio=1 Id=441 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@772d514f
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@772d514f
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+
+"RMI RenewClean-[localhost:50687]" daemon prio=5 Id=454 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@e142f0f
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@e142f0f
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.rmi@22.0.2/sun.rmi.transport.DGCClient$EndpointEntry$RenewCleanThread.run(DGCClient.java:567)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	...
+
+"RMI GC Daemon" daemon prio=2 Id=455 TIMED_WAITING on sun.rmi.transport.GC$LatencyLock@37308a47
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on sun.rmi.transport.GC$LatencyLock@37308a47
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.rmi@22.0.2/sun.rmi.transport.GC$Daemon.run(GC.java:127)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+	at java.base@22.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+"Worker-38: Periodic workspace save." prio=5 Id=495 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-39" prio=5 Id=499 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-42: Git Repository Change Scanner" prio=5 Id=550 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-43: Task List Save Job" prio=5 Id=563 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-44" prio=5 Id=566 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@47997ce6
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Output Stream Monitor for PID 12536 13-SpringKafkaProvider-MQ - Application" daemon prio=1 Id=573 RUNNABLE
+	at org.eclipse.swt.internal.win32.OS.PostThreadMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.wakeThread(Display.java:5044)
+	at org.eclipse.swt.widgets.Synchronizer.addLast(Synchronizer.java:79)
+	at org.eclipse.swt.widgets.Synchronizer.asyncExec(Synchronizer.java:101)
+	at org.eclipse.ui.internal.UISynchronizer.asyncExec(UISynchronizer.java:112)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:783)
+	-  locked java.lang.Class@6d8b7ea9
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:123)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@4a433e4a
+
+"Error Stream Monitor for PID 12536 13-SpringKafkaProvider-MQ - Application" daemon prio=1 Id=574 RUNNABLE (in native)
+	at java.base@22.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@22.0.2/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@22.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base@22.0.2/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base@22.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base@22.0.2/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@ff62513
+
+"Input Stream Monitor for PID 12536 13-SpringKafkaProvider-MQ - Application" daemon prio=5 Id=575 WAITING on java.lang.Object@7c3625b0
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@7c3625b0
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:204)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:176)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda/0x000001a9bf300458.run(Unknown Source)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+
+"Process monitor for PID 12536 13-SpringKafkaProvider-MQ - Application" daemon prio=5 Id=576 RUNNABLE (in native)
+	at java.base@22.0.2/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@22.0.2/java.lang.ProcessImpl.waitFor(ProcessImpl.java:569)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:507)
+
+"Worker-45" prio=5 Id=577 RUNNABLE
+	at java.management@22.0.2/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@22.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@22.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:120)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1786)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"RMI RenewClean-[localhost:50958]" daemon prio=5 Id=578 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@32689ea4
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@32689ea4
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.rmi@22.0.2/sun.rmi.transport.DGCClient$EndpointEntry$RenewCleanThread.run(DGCClient.java:567)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	...
+
+"JMX client heartbeat 12" daemon prio=5 Id=579 TIMED_WAITING
+	at java.base@22.0.2/java.lang.Thread.sleepNanos0(Native Method)
+	at java.base@22.0.2/java.lang.Thread.sleepNanos(Thread.java:491)
+	at java.base@22.0.2/java.lang.Thread.sleep(Thread.java:522)
+	at java.management@22.0.2/com.sun.jmx.remote.internal.ClientCommunicatorAdmin$Checker.run(ClientCommunicatorAdmin.java:180)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+
+
+!SESSION 2024-11-12 10:21:41.595 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 10:21:48.873
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 10:21:51.022
+!MESSAGE Logback config file: D:\Nitin_Projects\RestApi\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 10:21:51.638
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 10:21:51.638
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 10:21:52.063
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 10:21:52.063
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-12 10:21:58.734
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Nitin_Projects/RestApi/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731387118733
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:21:58.735
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-12 10:21:58.749
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9544
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-12 10:22:01.089
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xps'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:01.536
+!MESSAGE Boot project ADDED: 01-SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:01.537
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:01.540
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:01.933
+!MESSAGE Boot project ADDED: 02-SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:01.951
+!MESSAGE Boot project ADDED: 03-SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:01.969
+!MESSAGE Boot project ADDED: 04-SpringCloudOrderService-LoadBalancer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:01.985
+!MESSAGE Boot project ADDED: 05-SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.002
+!MESSAGE Boot project ADDED: 06-SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.018
+!MESSAGE Boot project ADDED: 07-SpringCloudSchedularServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.034
+!MESSAGE Boot project ADDED: 08-springadminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.050
+!MESSAGE Boot project ADDED: 09-SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.066
+!MESSAGE Boot project ADDED: 10-SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.081
+!MESSAGE Boot project ADDED: 11-SpringConsumerApp2-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.098
+!MESSAGE Boot project ADDED: 12-SpringConsumerApp3-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.113
+!MESSAGE Boot project ADDED: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.130
+!MESSAGE Boot project ADDED: SpringAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.147
+!MESSAGE Boot project ADDED: SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.147
+!MESSAGE Boot project ADDED: SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.148
+!MESSAGE Boot project ADDED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.148
+!MESSAGE Boot project ADDED: SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.149
+!MESSAGE Boot project ADDED: SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.149
+!MESSAGE Boot project ADDED: SpringCloudOrderService-LoadBalancerClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.150
+!MESSAGE Boot project ADDED: SpringCloudSchedulerService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.151
+!MESSAGE Boot project ADDED: SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.151
+!MESSAGE Boot project ADDED: SpringKafaProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 10:22:02.152
+!MESSAGE Boot project ADDED: SpringProviderApp-MQ
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-11-12 11:29:44.619
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:681)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:306)
+	at org.eclipse.jface.resource.DeferredImageDescriptor.createImage(DeferredImageDescriptor.java:85)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:229)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:56)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.LazyResourceManager.create(LazyResourceManager.java:88)
+	at org.eclipse.jface.resource.LocalResourceManager.allocate(LocalResourceManager.java:71)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.ui.actions.OpenWithMenu.getImage(OpenWithMenu.java:137)
+	at org.eclipse.ui.actions.OpenWithMenu.createMenuItem(OpenWithMenu.java:174)
+	at org.eclipse.ui.actions.OpenWithMenu.fill(OpenWithMenu.java:271)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:728)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:805)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1161)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processContents(MenuManagerRenderer.java:633)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeTopicChildAdded(MenuManagerRenderer.java:320)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4814)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:248)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:294)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:304)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.reconcileManagerToModel(MenuManagerRenderer.java:1022)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.reconcileManagerToModel(MenuManagerRenderer.java:960)
+	at org.eclipse.ui.internal.PopupMenuExtender.addMenuContributions(PopupMenuExtender.java:379)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:355)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:467)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1165)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5121)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4741)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2319)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:241)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3667)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SESSION 2024-11-12 21:51:01.977 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 21:51:07.552
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-12 21:51:09.764
+!MESSAGE Logback config file: D:\Nitin_Projects\RestApi\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 21:51:10.397
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 21:51:10.397
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-12 21:51:10.781
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-12 21:51:10.781
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-12 21:51:17.291
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Nitin_Projects/RestApi/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731428477290
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:17.291
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-12 21:51:17.303
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12660
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.749
+!MESSAGE Boot project ADDED: 01-SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.750
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.751
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.752
+!MESSAGE Boot project ADDED: 02-SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.770
+!MESSAGE Boot project ADDED: 03-SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.789
+!MESSAGE Boot project ADDED: 04-SpringCloudOrderService-LoadBalancer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.808
+!MESSAGE Boot project ADDED: 05-SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.830
+!MESSAGE Boot project ADDED: 06-SpringCloudConfigServer
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-12 21:51:19.832
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xps'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.851
+!MESSAGE Boot project ADDED: 07-SpringCloudSchedularServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.871
+!MESSAGE Boot project ADDED: 08-springadminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.872
+!MESSAGE Boot project ADDED: 09-SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.890
+!MESSAGE Boot project ADDED: 10-SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.911
+!MESSAGE Boot project ADDED: 11-SpringConsumerApp2-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.930
+!MESSAGE Boot project ADDED: 12-SpringConsumerApp3-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.931
+!MESSAGE Boot project ADDED: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.958
+!MESSAGE Boot project ADDED: SpringAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.978
+!MESSAGE Boot project ADDED: SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:19.994
+!MESSAGE Boot project ADDED: SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:20.014
+!MESSAGE Boot project ADDED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:20.031
+!MESSAGE Boot project ADDED: SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:20.048
+!MESSAGE Boot project ADDED: SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:20.066
+!MESSAGE Boot project ADDED: SpringCloudOrderService-LoadBalancerClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:20.081
+!MESSAGE Boot project ADDED: SpringCloudSchedulerService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:20.099
+!MESSAGE Boot project ADDED: SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:20.115
+!MESSAGE Boot project ADDED: SpringKafaProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-12 21:51:20.115
+!MESSAGE Boot project ADDED: SpringProviderApp-MQ
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-11-12 21:51:24.354
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SESSION 2024-11-13 02:11:06.313 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 02:11:12.360
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 02:11:14.201
+!MESSAGE Logback config file: D:\Nitin_Projects\RestApi\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 02:11:14.875
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 02:11:14.875
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-13 02:11:15.242
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-13 02:11:15.242
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 02:11:21.467
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Nitin_Projects/RestApi/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731444081466
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:21.467
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-13 02:11:21.478
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 6036
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.503
+!MESSAGE Boot project ADDED: 01-SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.504
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.506
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.507
+!MESSAGE Boot project ADDED: 02-SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.525
+!MESSAGE Boot project ADDED: 03-SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.544
+!MESSAGE Boot project ADDED: 04-SpringCloudOrderService-LoadBalancer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.560
+!MESSAGE Boot project ADDED: 05-SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.578
+!MESSAGE Boot project ADDED: 06-SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.597
+!MESSAGE Boot project ADDED: 07-SpringCloudSchedularServer
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-13 02:11:24.603
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xps'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.659
+!MESSAGE Boot project ADDED: 08-springadminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.660
+!MESSAGE Boot project ADDED: 09-SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.687
+!MESSAGE Boot project ADDED: 10-SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.723
+!MESSAGE Boot project ADDED: 11-SpringConsumerApp2-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.743
+!MESSAGE Boot project ADDED: 12-SpringConsumerApp3-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.744
+!MESSAGE Boot project ADDED: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.765
+!MESSAGE Boot project ADDED: SpringAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.786
+!MESSAGE Boot project ADDED: SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.815
+!MESSAGE Boot project ADDED: SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.839
+!MESSAGE Boot project ADDED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.859
+!MESSAGE Boot project ADDED: SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.877
+!MESSAGE Boot project ADDED: SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.897
+!MESSAGE Boot project ADDED: SpringCloudOrderService-LoadBalancerClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.914
+!MESSAGE Boot project ADDED: SpringCloudSchedulerService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.932
+!MESSAGE Boot project ADDED: SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.949
+!MESSAGE Boot project ADDED: SpringKafaProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-13 02:11:24.950
+!MESSAGE Boot project ADDED: SpringProviderApp-MQ
+!SESSION 2024-11-14 14:16:09.362 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 14:16:14.518
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 14:16:16.860
+!MESSAGE Logback config file: D:\Nitin_Projects\RestApi\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 14:16:17.677
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 14:16:17.677
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 14:16:18.266
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 14:16:18.266
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-14 14:16:25.922
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xps'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.058
+!MESSAGE Boot project ADDED: 01-SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.059
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.128
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.155
+!MESSAGE Boot project ADDED: 02-SpringCloudCartService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 14:16:26.173
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Nitin_Projects/RestApi/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731573986168
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.173
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.180
+!MESSAGE Boot project ADDED: 03-SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 14:16:26.182
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14584
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.211
+!MESSAGE Boot project ADDED: 04-SpringCloudOrderService-LoadBalancer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.260
+!MESSAGE Boot project ADDED: 05-SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.284
+!MESSAGE Boot project ADDED: 06-SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.303
+!MESSAGE Boot project ADDED: 07-SpringCloudSchedularServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.325
+!MESSAGE Boot project ADDED: 08-springadminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.345
+!MESSAGE Boot project ADDED: 09-SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.366
+!MESSAGE Boot project ADDED: 10-SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.390
+!MESSAGE Boot project ADDED: 11-SpringConsumerApp2-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.410
+!MESSAGE Boot project ADDED: 12-SpringConsumerApp3-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.432
+!MESSAGE Boot project ADDED: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.459
+!MESSAGE Boot project ADDED: SpringAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.484
+!MESSAGE Boot project ADDED: SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.508
+!MESSAGE Boot project ADDED: SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.535
+!MESSAGE Boot project ADDED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.560
+!MESSAGE Boot project ADDED: SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.583
+!MESSAGE Boot project ADDED: SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.611
+!MESSAGE Boot project ADDED: SpringCloudOrderService-LoadBalancerClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.632
+!MESSAGE Boot project ADDED: SpringCloudSchedulerService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.654
+!MESSAGE Boot project ADDED: SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.677
+!MESSAGE Boot project ADDED: SpringKafaProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:16:26.678
+!MESSAGE Boot project ADDED: SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:17:13.781
+!MESSAGE Classpath changed for project: SpringKafaConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:17:14.479
+!MESSAGE Classpath changed for project: SpringKafaConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:17:14.480
+!MESSAGE Boot project ADDED: SpringKafaConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:17:14.759
+!MESSAGE Classpath changed for project: SpringKafaConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:17:15.922
+!MESSAGE Classpath changed for project: SpringKafaConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:17:18.964
+!MESSAGE Classpath changed for project: SpringKafaConsumerApp
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-14 14:18:03.327
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-14 14:18:03.328
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-14 14:18:03.329
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-14 14:18:03.330
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-14 14:18:03.338
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-11-14 14:18:03.343
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:21:13.844
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebProvider
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:21:13.844
+!MESSAGE Boot project ADDED: 14-SpringkafkaWebProvider
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 14:21:17.469
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebProvider
+!SESSION 2024-11-14 17:00:56.949 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 17:01:01.346
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-14 17:01:02.961
+!MESSAGE Logback config file: D:\Nitin_Projects\RestApi\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 17:01:03.670
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 17:01:03.670
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-14 17:01:04.051
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-14 17:01:04.051
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 17:01:09.933
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Nitin_Projects/RestApi/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731583869932
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:09.934
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-14 17:01:09.946
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8176
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.561
+!MESSAGE Boot project ADDED: 01-SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.562
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.564
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.573
+!MESSAGE Boot project ADDED: 02-SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.578
+!MESSAGE Boot project ADDED: 03-SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.587
+!MESSAGE Boot project ADDED: 04-SpringCloudOrderService-LoadBalancer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.599
+!MESSAGE Boot project ADDED: 05-SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.606
+!MESSAGE Boot project ADDED: 06-SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.610
+!MESSAGE Boot project ADDED: 07-SpringCloudSchedularServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.616
+!MESSAGE Boot project ADDED: 08-springadminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.625
+!MESSAGE Boot project ADDED: 09-SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.628
+!MESSAGE Boot project ADDED: 10-SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.643
+!MESSAGE Boot project ADDED: 11-SpringConsumerApp2-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.649
+!MESSAGE Boot project ADDED: 12-SpringConsumerApp3-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.659
+!MESSAGE Boot project ADDED: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.660
+!MESSAGE Boot project ADDED: 14-SpringkafkaWebProvider
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.660
+!MESSAGE Boot project ADDED: SpringAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.666
+!MESSAGE Boot project ADDED: SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.673
+!MESSAGE Boot project ADDED: SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.678
+!MESSAGE Boot project ADDED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.684
+!MESSAGE Boot project ADDED: SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.693
+!MESSAGE Boot project ADDED: SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.698
+!MESSAGE Boot project ADDED: SpringCloudOrderService-LoadBalancerClient
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-14 17:01:12.706
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xps'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.716
+!MESSAGE Boot project ADDED: SpringCloudSchedulerService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.747
+!MESSAGE Boot project ADDED: SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.748
+!MESSAGE Boot project ADDED: SpringKafaConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.754
+!MESSAGE Boot project ADDED: SpringKafaProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:01:12.754
+!MESSAGE Boot project ADDED: SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:00.546
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebConsumer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:00.546
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebProvider
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:00.551
+!MESSAGE Boot project REMOVED: 14-SpringkafkaWebProvider
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:05.660
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebConsumer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:05.678
+!MESSAGE Boot project ADDED: 14-SpringkafkaWebConsumer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:05.802
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebConsumer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:15.094
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebConsumer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:15.094
+!MESSAGE Boot project REMOVED: 14-SpringkafkaWebConsumer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:15.095
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebConsumer-Mq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:18.775
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebConsumer-Mq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:18.794
+!MESSAGE Boot project ADDED: 14-SpringkafkaWebConsumer-Mq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:02:18.874
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebConsumer-Mq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-14 17:18:10.674
+!MESSAGE Classpath changed for project: 14-SpringkafkaWebConsumer-Mq
+!SESSION 2024-11-15 01:43:46.059 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-15 01:43:49.501
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-15 01:43:51.680
+!MESSAGE Logback config file: D:\Nitin_Projects\RestApi\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-11-15 01:43:52.352
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-15 01:43:52.352
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-15 01:43:52.776
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-15 01:43:52.776
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-15 01:43:59.223
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xps'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.322
+!MESSAGE Boot project ADDED: 01-SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.323
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.388
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.414
+!MESSAGE Boot project ADDED: 02-SpringCloudCartService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-15 01:43:59.429
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Xps\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Nitin_Projects/RestApi/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1731615239429
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.430
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.438
+!MESSAGE Boot project ADDED: 03-SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-15 01:43:59.447
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4616
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.464
+!MESSAGE Boot project ADDED: 04-SpringCloudOrderService-LoadBalancer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.495
+!MESSAGE Boot project ADDED: 05-SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.516
+!MESSAGE Boot project ADDED: 06-SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.542
+!MESSAGE Boot project ADDED: 07-SpringCloudSchedularServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.563
+!MESSAGE Boot project ADDED: 08-springadminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.584
+!MESSAGE Boot project ADDED: 09-SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.615
+!MESSAGE Boot project ADDED: 10-SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.644
+!MESSAGE Boot project ADDED: 11-SpringConsumerApp2-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.667
+!MESSAGE Boot project ADDED: 12-SpringConsumerApp3-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.691
+!MESSAGE Boot project ADDED: 13-SpringKafkaProvider-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.718
+!MESSAGE Boot project ADDED: 14-SpringkafkaWebConsumer-Mq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.743
+!MESSAGE Boot project ADDED: SpringAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.768
+!MESSAGE Boot project ADDED: SpringCloudCartService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.792
+!MESSAGE Boot project ADDED: SpringCloudConfigServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.815
+!MESSAGE Boot project ADDED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.842
+!MESSAGE Boot project ADDED: SpringCloudOrderService-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.870
+!MESSAGE Boot project ADDED: SpringCloudOrderService-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.897
+!MESSAGE Boot project ADDED: SpringCloudOrderService-LoadBalancerClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.921
+!MESSAGE Boot project ADDED: SpringCloudSchedulerService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.947
+!MESSAGE Boot project ADDED: SpringConsumerApp1-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.968
+!MESSAGE Boot project ADDED: SpringKafaConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.992
+!MESSAGE Boot project ADDED: SpringKafaProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:43:59.992
+!MESSAGE Boot project ADDED: SpringProviderApp-MQ
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:44:46.864
+!MESSAGE Classpath changed for project: SpringCloudAPI-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:44:47.530
+!MESSAGE Classpath changed for project: SpringCloudAPI-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:44:47.530
+!MESSAGE Boot project ADDED: SpringCloudAPI-Gateway
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-11-15 01:44:47.794
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-gateway:4.1.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.1.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.1.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2024-11-15 01:44:47.796
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.1.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2024-11-15 01:44:47.796
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.1.5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:44:48.726
+!MESSAGE Classpath changed for project: SpringCloudAPI-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:44:48.942
+!MESSAGE Classpath changed for project: SpringCloudAPI-Gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-15 01:44:50.742
+!MESSAGE Classpath changed for project: SpringCloudAPI-Gateway

@@ -1,0 +1,8 @@
+package in.pwskills.nitin.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@StockRestController
+public class RestController {
+
+}

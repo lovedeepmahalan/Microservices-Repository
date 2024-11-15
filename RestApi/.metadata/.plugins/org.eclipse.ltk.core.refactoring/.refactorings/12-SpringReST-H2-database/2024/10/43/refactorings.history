@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;11-springrest-backend-H2-Database/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;12-SpringReST-H2-database&apos;&#x0D;&#x0A;- Destination element: &apos;11-springrest-backend-H2-Database/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     schema.sql&#x0D;&#x0A;     data.sql" description="Copy files" destination="=11-springrest-backend-H2-Database/src\/main\/resources=/maven.pomderived=/true=/=/optional=/true=/" element1="src/main/resources/schema.sql" element2="src/main/resources/data.sql" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1729404620121" units="0" version="1.0"/>
+</session>

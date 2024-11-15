@@ -1,0 +1,8 @@
+package in.pwskills.nitin.service;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class providerService {
+
+}

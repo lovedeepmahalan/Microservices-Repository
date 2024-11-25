@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -34,8 +35,9 @@ public class CartRestController {
 	
 	@GetMapping("/show")
 	public ResponseEntity<String> getCartDetails(
-			){
-		return ResponseEntity.ok("WELCOME TO CART SERVICE RUNNING ON :: "+portNo+" Data retrived from --> "+info);
+			@RequestHeader("TOCKENID")String tockeninfo){
+		return ResponseEntity.ok("WELCOME TO CART SERVICE RUNNING ON :: "+portNo+" Data retrived from --> "+info
+															+ "prefilter data of api gateway is "+tockeninfo);
 	}
 	
 	/*

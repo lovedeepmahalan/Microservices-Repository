@@ -30,6 +30,6 @@ public class InsertionSort {
 			}
 			arr[j+1]=item;
 		}
-	}
+	}//time complexity is O(n^2)
 
 }

@@ -52,6 +52,6 @@ public class QuickSort {
 				return j;
 			}
 		}
-	}
+	}//O(n^2)
 
 }

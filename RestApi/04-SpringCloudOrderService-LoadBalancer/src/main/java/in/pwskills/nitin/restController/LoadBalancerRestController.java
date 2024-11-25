@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import in.pwskills.nitin.consumer.CartConsumerApp;
 
 @RestController
-@RequestMapping("/rest/controller")
+@RequestMapping("/spring/rest")
 public class LoadBalancerRestController {
 
 	@Autowired

@@ -1,7 +1,0 @@
-package in.pwskills.nitin.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface IStockREpo extends JpaRepository<StockApi, Imteger> {
-
-}

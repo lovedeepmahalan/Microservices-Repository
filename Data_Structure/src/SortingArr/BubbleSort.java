@@ -15,8 +15,10 @@ public class BubbleSort {
 			System.out.println("Enter the array value");
 			arr[i]=sc.nextInt();
 		}
+		System.out.println("array before sorting");
 		System.out.println(Arrays.toString(arr));
 		Bubble_Sort(arr,a);
+		System.out.println("array after sorting");
 		System.out.println(Arrays.toString(arr));
 		sc.close();
 	}
@@ -32,6 +34,6 @@ public class BubbleSort {
 				
 			}
 		}
-	}
+	}//time Complexity is O(n^2)
 
 }

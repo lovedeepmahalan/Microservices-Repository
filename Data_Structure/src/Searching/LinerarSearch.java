@@ -23,7 +23,7 @@ public class LinerarSearch {
 		if(index>=0) {
 			System.out.println("Value will get at number ::"+index);
 		}else{
-			System.out.println("vlue not found");
+			System.out.println("value not found");
 		}
 		
 	}
@@ -34,6 +34,6 @@ public class LinerarSearch {
 			}
 		}
 		return -1;
-	}
+	}//O(n)
 
 }

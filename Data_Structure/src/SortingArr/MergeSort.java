@@ -78,5 +78,5 @@ public class MergeSort {
 	arr[k] = c[k];
 	}
 	}
-
+//time complexity is O(nlogn)
 }

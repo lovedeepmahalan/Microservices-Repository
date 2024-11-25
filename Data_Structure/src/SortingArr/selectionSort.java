@@ -32,5 +32,5 @@ public class selectionSort {
 			arr[i]=arr[k];
 			arr[k]=temp;
 		}
-	}
+	}//O(n^2)
 }

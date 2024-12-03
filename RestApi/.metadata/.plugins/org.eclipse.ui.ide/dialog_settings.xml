@@ -6,6 +6,15 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Nitin_Projects\MySpringBootProjects\08-SpringBoot-profile-app"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\07-spring-boot-@ConfigurationProperties-YML"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\05-spring-boot-@ConfigurationProperties-AllTypes"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\04-SpringBoot-@ConfigurationProperties"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\03-SpringBoot-@Value"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\02-SpringBoot-DI"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\01-SpringBoot-DI"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\06-SpringBoot-Project"/>
 			<item value="D:\Nitin_Projects\Data_Structure"/>
 			<item value="D:\Nitin_Projects\MySpringCoreProjects"/>
 			<item value="D:\Pwskills_Octbatch\Microservices\SpringCloudAPI-Gateway"/>

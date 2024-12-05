@@ -6,6 +6,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Nitin_Projects\MySpringBootProjects\12-SpringBoot-Runner-BothRunner"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\11-SpringBoot-Runner-ApplicationRunner"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\10-SpringBoot-Runner-App"/>
+			<item value="D:\Nitin_Projects\MySpringBootProjects\09-SpringBoot-profile-usingYML"/>
 			<item value="D:\Nitin_Projects\MySpringBootProjects\08-SpringBoot-profile-app"/>
 			<item value="D:\Nitin_Projects\MySpringBootProjects\07-spring-boot-@ConfigurationProperties-YML"/>
 			<item value="D:\Nitin_Projects\MySpringBootProjects\05-spring-boot-@ConfigurationProperties-AllTypes"/>

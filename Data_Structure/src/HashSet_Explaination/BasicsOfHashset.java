@@ -10,6 +10,7 @@ public class BasicsOfHashset {
 		HashSet<Integer> hs=new HashSet<Integer>(3,.075f);
 		//here 3 is capacity of Hashset and 0.75 is load factor if the 75per size is filled of it then automatically
 		// is doubled same like as StringBuilder
+		//we cannot add duplicate data in hashset
 			hs.add(12);
 			hs.add(34);
 			hs.add(45);

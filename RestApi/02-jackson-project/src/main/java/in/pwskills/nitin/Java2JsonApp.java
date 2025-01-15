@@ -28,7 +28,7 @@ public class Java2JsonApp {
 		
 		//this is use to increase the readability of an object
 		mapper.enable(SerializationFeature.INDENT_OUTPUT);
-		//this is use to enable Root_Value for JSON object
+		//this is use to enable Root_Value (means {} curly braces) for JSON object
 		mapper.enable(SerializationFeature.WRAP_ROOT_VALUE);
 		
 		//this is use for remove NON_NULL and NON_EMPTY value from JSON object that will be created

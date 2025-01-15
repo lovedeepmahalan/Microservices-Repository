@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class FirstServlet
  */
-@WebServlet(description="Working with get an post methods",urlPatterns="/test",loadOnStartup = 10)
+@WebServlet(description="Working with get and post methods",urlPatterns="/test",loadOnStartup = 10)
 public class FirstServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 static {
@@ -33,5 +33,4 @@ static {
 		PrintWriter out=response.getWriter();
 		out.println("<h1> Request Processing :: POST METHOD </h1>");
 	}
-
 }

@@ -6,6 +6,19 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringMSIntercommApp"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringCircuitBreakerApp"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringSecurityOrmAuthentication"/>
+			<item value="D:\Nitin_Projects\RestApi\02-jackson-project"/>
+			<item value="D:\Pwskills_Octbatch\springReST"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringSecurityJdbcAuthentication"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringSecurityInMemoryAuthentication"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringReactivePgm-consumer"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringReactivePgm-publisher"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringServiceC"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringServiceB"/>
+			<item value="D:\Pwskills_Octbatch\Microservices\SpringServiceA"/>
+			<item value="D:\Nitin_Projects\RestApi\06-SpringCloudConfigServer"/>
 			<item value="D:\Nitin_Projects\MySpringBootProjects\12-SpringBoot-Runner-BothRunner"/>
 			<item value="D:\Nitin_Projects\MySpringBootProjects\11-SpringBoot-Runner-ApplicationRunner"/>
 			<item value="D:\Nitin_Projects\MySpringBootProjects\10-SpringBoot-Runner-App"/>
@@ -71,11 +84,9 @@
 		</section>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
-			<item value="org.eclipse.jdt.ui.java"/>
-			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
 		</list>
 		<section name="NewWizard.dialogBounds">
 		</section>

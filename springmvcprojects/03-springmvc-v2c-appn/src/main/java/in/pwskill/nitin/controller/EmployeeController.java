@@ -23,7 +23,7 @@ public class EmployeeController {
 	public String showEmployee() {
 		return "Employee";
 	}
-	
+
 	@PostMapping(value="/save")
 	public String saveData(@ModelAttribute
 							Employee employee,

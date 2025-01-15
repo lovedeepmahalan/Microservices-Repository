@@ -5,9 +5,11 @@ import java.util.Map;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller //HTTP methods(GET/POST) + @Component
+@RequestMapping("/")
 public class WelcomeController {
 
 	static {
@@ -26,7 +28,7 @@ public class WelcomeController {
 	 * 
 	 */
 	//@RequestMapping(value = "/",method = RequestMethod.GET)
-	@GetMapping(value="/")
+	@GetMapping(value="/info")
 	public String getMethodName(Map<String, String> model) {
 		System.out.println(model.getClass().getName());
 		model.put("BRAND", "PWSKILLS");//we can use Model(I),MAP(I),ModelMap(c) to send the data

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Factorial {
 
 	public static long factorial(int a) {
-		//base case
+		//base case when the control flow reach at base case after that recursive case will no run.
 		if(a==0||a==1) {
 			return 1;
 		}

@@ -18,7 +18,6 @@ public class FindPermutationOfString {
 			String left=str.substring(0,i);
 			String right=str.substring(i+1);
 			findPermutation( left+right,ans+ch);
-		}
-		
+		}		
 	}
 }

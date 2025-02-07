@@ -16,67 +16,49 @@ public class MergeSort {
 			arr[i]=sc.nextInt();
 		}
 		System.out.println(Arrays.toString(arr));
-		Merge_Sort(arr,0,a-1);
+		Merge_Sort(arr);
 		System.out.println(Arrays.toString(arr));
 		sc.close();
 	}
-	public static void Merge_Sort(int[] arr,int low,int high) {
-		if(high>low) {
-			int mid=(low+high)/2;
-			Merge_Sort(arr,low,mid);
-			Merge_Sort(arr, mid+1, high);
-			combine(arr,low,mid,high);
-		}
+	public static void Merge_Sort(int[] arr) {
+		int n=arr.length;
+		if(n==1) return;
+		int[] arr1=new int[n/2];
+		int[] arr2=new int[n-n/2];
+		
+		for(int i=0;i<n/2;i++) arr1[i]=arr[i];
+		for(int i=0;i<(n-n/2);i++) arr2[i]=arr[n/2+i];
+		
+		Merge_Sort(arr1);
+		Merge_Sort(arr2);
+		
+		merge(arr1, arr2, arr);
+		//delete arr1 and arr2 to improve the space complexity
+		arr1=null;
+		arr2=null;//the array will by deleted by demon thread named called Garbage Collector.
 	}
-	public static void combine(int arr[],int low,int mid,int high)
-	{
-	int[] c =new int[high+1];
-	//logic of merging both the arrays[bags]
-	int i = low;
-	int j = mid+1;
-	int k = low;
-	//Check whether both bag contains element or not
-	while (i<=mid && j<=high)
-	{
-	if (arr[i]< arr[j])
-	{
-	c[k]= arr[i];
-	i++;
-	}
-	else
-	{
-	c[k] = arr[j];
-	j++;
+	
+	private static void merge(int[] a, int[] b, int[] c) {
 
+		int i=0;
+		int j=0;
+		int k=0;
+		while(i<a.length && j<b.length) {
+			if(a[i]<=b[j]) {
+				c[k++]=a[i++];
+			}else {
+				c[k++]=b[j++];
+			}
+		}
+		
+			while(j<b.length) {
+				c[k++]=b[j++];
+			}
+			while(i<a.length) {
+				c[k++]=a[i++];
+			}
 	}
-	k++;
-	}
-	//1st bag empty
-	if (i>mid)
-	{
-	//copy all 2nd bag elements to new bag
-	while (j<=high)
-	{
-	c[k]=arr[j];
-	j++;
-	k++;
-	}
-	}
-	else
-	{
-	//copy all 1st bag elements to new bag
-	while (i<=mid)
-	{
-	c[k]=arr[i];
-	i++;
-	k++;
-	}
-	}
-	//Copy from old bag to new bag
-	for (k=low;k<=high;k++ )
-	{
-	arr[k] = c[k];
-	}
-	}
+
+	
 //time complexity is O(nlogn)
 }

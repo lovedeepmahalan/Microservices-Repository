@@ -29,6 +29,4 @@ public class InsurancePolicyDaoImpl implements InsurancePolicyDao{
 		return list;
 		
 	}
-
-
 }

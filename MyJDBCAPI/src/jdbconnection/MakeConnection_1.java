@@ -15,7 +15,7 @@ private MakeConnection_1() {}
 private static Properties properties=null;
 static {
 	FileInputStream  fis=null;
-	String path="D:\\octoberbatch\\src\\jdbconnection\\database.properties";
+	String path="D:\\Nitin_Projects\\MyJDBCAPI\\src\\jdbconnection\\database.properties";
 	try {
 		fis=new FileInputStream(path);
 		if(fis!=null) {

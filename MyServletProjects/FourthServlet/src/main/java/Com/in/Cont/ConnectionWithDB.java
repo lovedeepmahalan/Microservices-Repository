@@ -54,7 +54,7 @@ public class ConnectionWithDB extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException,IOException {
-		System.out.println("REquest Processing");
+		System.out.println("Request Processing");
 		ResultSet rs=null;
 		if(statement!=null) {
 			try {

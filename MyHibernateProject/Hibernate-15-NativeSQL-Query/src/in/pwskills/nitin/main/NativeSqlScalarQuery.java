@@ -1,7 +1,6 @@
  package in.pwskills.nitin.main;
 
 import java.util.List;
-
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.query.NativeQuery;

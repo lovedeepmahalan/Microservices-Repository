@@ -1,7 +1,6 @@
 package in.pwskills.nitin.controller;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import in.pwskills.nitin.beans.Employee;
 import in.pwskills.nitin.service.IEmployeeService;
 
@@ -56,7 +54,7 @@ public class EmployeeController {
 	}
 	
 	/***
-	 * 				Retrieve all records and display 
+	 * Retrieve all records and display 
 	 * 1. GET ALL RECORDS FROM DB 
 	 * 2. METHOD : GET
 	 * 3. ACTION : /list 

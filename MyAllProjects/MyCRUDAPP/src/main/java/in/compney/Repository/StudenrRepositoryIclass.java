@@ -48,7 +48,7 @@ public class StudenrRepositoryIclass implements StudentRepository {
 				insertstmt.setString(4,stdbo.getSaddress());
 				int rowcount=insertstmt.executeUpdate();
 				if(rowcount!=0) {
-					status="Data has been inserted successfully";
+					status="success";
 				}else {
 					status="Some error has been occured";
 				}

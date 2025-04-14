@@ -18,7 +18,7 @@ public class FirstUrlReWriting extends HttpServlet {
 		
 		String uname = request.getParameter("name");
 		out.println("<body align='center'>");
-		out.println("<h1 style='color:red; text-align:center;'>Welcome to pwski....</h1>");
+		out.println("<h1 style='color:red; text-align:center;'>Welcome to pwskills....</h1>");
 		String url="./secondurl"+ "?name="+uname;
 		String encodeURL = response.encodeURL(url);
 		System.out.println(encodeURL);

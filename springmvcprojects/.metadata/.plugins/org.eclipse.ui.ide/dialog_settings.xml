@@ -6,6 +6,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Nitin_Projects\springmvcprojects\springmvc-thymeleaf-crud-project"/>
+			<item value="D:\Nitin_Projects\springmvcprojects\springmvc-thymeleaf-crud-pagination-project"/>
+			<item value="D:\Nitin_Projects\springmvcprojects\05-springmvc-bi-directional-thymeleaf"/>
+			<item value="D:\Nitin_Projects\springmvcprojects\04-springmvc-v2c-thymeleaf"/>
 			<item value="D:\Nitin_Projects\springmvcprojects\03-springmvc-v2c-appn"/>
 			<item value="D:\Nitin_Projects\springmvcprojects\03-springmvc-V2C-app2"/>
 			<item value="D:\Nitin_Projects\springmvcprojects\02-springmvc-jstliteration"/>

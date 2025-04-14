@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="FirstServletApp" path="/FirstServletApp" reloadable="true" source="org.eclipse.jst.jee.server:FirstServletApp"/><Context docBase="SecondServletApp" path="/SecondServletApp" reloadable="true" source="org.eclipse.jst.jee.server:SecondServletApp"/></Host>
+      <Context docBase="MyCRUDAPP" path="/MyCRUDAPP" reloadable="true" source="org.eclipse.jst.jee.server:MyCRUDAPP"/><Context docBase="PooledConnectionAppn" path="/PooledConnectionAppn" reloadable="true" source="org.eclipse.jst.jee.server:PooledConnectionAppn"/><Context docBase="FileUploading" path="/FileUploading" reloadable="true" source="org.eclipse.jst.jee.server:FileUploading"/><Context docBase="WebSecurityBasicAuthentication-01" path="/WebSecurityBasicAuthentication-01" reloadable="true" source="org.eclipse.jst.jee.server:WebSecurityBasicAuthentication-01"/><Context docBase="WebSecurityFormAuthentication-02" path="/WebSecurityFormAuthentication-02" reloadable="true" source="org.eclipse.jst.jee.server:WebSecurityFormAuthentication-02"/><Context docBase="CreateServletPracticeSet" path="/CreateServletPracticeSet" reloadable="true" source="org.eclipse.jst.jee.server:CreateServletPracticeSet"/><Context docBase="EL_JSP" path="/EL_JSP" reloadable="true" source="org.eclipse.jst.jee.server:EL_JSP"/></Host>
     </Engine>
   </Service>
 </Server>

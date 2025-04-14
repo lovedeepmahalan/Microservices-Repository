@@ -1,53 +1,43 @@
 package in.pwskills.nitin.bean;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
+import javax.persistence.*;
 
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)  
+@DiscriminatorColumn(name = "paymentMode", discriminatorType = DiscriminatorType.STRING, length = 20)
 public class Payment {
 
-	static {
-		System.out.println("Payment class is Loading");
-	}
-	public Payment() {
-		System.out.println("Payment.class is Initialization");
-	}
-	
-	public Integer getPid() {
-		return pid;
-	}
+    static {
+        System.out.println("Payment class is Loading");
+    }
 
-	public void setPid(Integer pid) {
-		this.pid = pid;
-	}
+    public Payment() {
+        System.out.println("Payment.class is Initialization");
+    }
 
-	public Float getAmount() {
-		return amount;
-	}
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer pid;
 
-	public void setAmount(Float amount) {
-		this.amount = amount;
-	}
+    private Float amount;
 
-	@Override
-	public String toString() {
-		return "Payment [pid=" + pid + ", amount=" + amount + "]";
-	}
+    public Integer getPid() {
+        return pid;
+    }
 
-	public Payment(Integer pid, Float amount) {
-		super();
-		this.pid = pid;
-		this.amount = amount;
-	}
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer pid;
-	private Float amount;
+    public void setPid(Integer pid) {
+        this.pid = pid;
+    }
 
+    public Float getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Float amount) {
+        this.amount = amount;
+    }
+
+    @Override
+    public String toString() {
+        return "Payment [pid=" + pid + ", amount=" + amount + "]";
+    }
 }

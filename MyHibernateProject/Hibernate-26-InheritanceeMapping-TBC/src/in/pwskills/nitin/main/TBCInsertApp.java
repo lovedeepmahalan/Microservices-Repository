@@ -24,11 +24,11 @@ public class TBCInsertApp {
 			CardPayment cardPayment = new CardPayment();
 			cardPayment.setCardNo(1234L);
 			cardPayment.setCardType("debit");
-			cardPayment.setPaymentGateWay("visa");
+			cardPayment.setPaymentGateway("visa");
 			cardPayment.setAmount(8000.0f);
 
 			session.save(cardPayment);
-
+			System.out.println(cardPayment);
 			Chequepayment chequePayment = new Chequepayment();
 			chequePayment.setAmount(9000.0f);
 			chequePayment.setChequeNo(56456L);
@@ -36,6 +36,7 @@ public class TBCInsertApp {
 			chequePayment.setExpriyDate(LocalDate.of(2025, 10, 25));
 
 			session.save(chequePayment);
+			System.out.println(chequePayment);
 			flag = true;
 
 		} catch (HibernateException he) {

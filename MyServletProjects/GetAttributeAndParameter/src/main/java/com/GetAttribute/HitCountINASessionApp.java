@@ -32,5 +32,4 @@ public class HitCountINASessionApp extends HttpServlet {
 	out.println("</body>");
 	out.close();
 	}
-
 }

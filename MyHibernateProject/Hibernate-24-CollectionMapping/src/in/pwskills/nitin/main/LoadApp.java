@@ -19,7 +19,7 @@ public class LoadApp {
 
 		try {
 			session = HibernateUtil.getSession();
-			Query<Employee> query=session.createQuery("fromm Employee");
+			Query<Employee> query=session.createQuery("from Employee");
 			List<Employee> list=query.getResultList();
 			list.forEach(System.out::println);
 			

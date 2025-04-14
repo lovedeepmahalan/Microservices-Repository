@@ -16,6 +16,12 @@
   limitations under the License.
 --><tomcat-users version="1.0" xmlns="http://tomcat.apache.org/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd">
 <user password="root123" roles="manager-gui,admin-gui" username="root"/>
+
+<role rolename="managerole" />
+    
+    <!-- Define users -->
+    <user username="Lovedeep" password="Choudhary" roles="managerole" />
+    <user username="Nitin" password="Manjunath" roles="managerole" />
 <!--
   By default, no user is included in the "manager-gui" role required
   to operate the "/manager/html" web application.  If you wish to use this app,

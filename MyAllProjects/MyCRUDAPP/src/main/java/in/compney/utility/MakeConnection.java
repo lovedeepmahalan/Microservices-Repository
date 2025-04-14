@@ -8,7 +8,7 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 public class MakeConnection {
-	static String path="C:\\MyCRUDAPP\\src\\main\\java\\in\\compney\\utility\\HikariProp.properties";
+	static String path="D:\\Nitin_Projects\\MyAllProjects\\MyCRUDAPP\\src\\main\\java\\in\\compney\\utility\\HikariProp.properties";
 	private static HikariDataSource datasource=null;
 	static {
 		HikariConfig config=new HikariConfig(path);

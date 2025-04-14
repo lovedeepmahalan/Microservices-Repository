@@ -48,9 +48,7 @@ System.out.println(resultSet.getInt(1) + "\t" +resultSet.getString(2) + "\t" + r
 + "\t" + resumeLocation);
 
 } else {
-System.out.println("Record not found for the given id :: "
-
-+ eid);
+System.out.println("Record not found for the given id :: "+ eid);
 
 }
 scanner.close();

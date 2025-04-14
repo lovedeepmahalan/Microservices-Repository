@@ -19,8 +19,8 @@ public class SecondServlet extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("REquest Processing");
-		System.out.println("Second servlet reqest object ::"+request.getClass().getName());
-		System.out.println("Second servlet response hashcode ::"+response.getClass().getName());
+		System.out.println("Second servlet request object ::"+request.getClass().hashCode());
+		System.out.println("Second servlet response hashcode ::"+response.getClass().hashCode());
 		PrintWriter out=response.getWriter();
 		out.println("<body style='text-align: center; color: pink;'>");
         out.println("<h1 style='text-align: center; color: Green;'>Request from second servlet</h1>");

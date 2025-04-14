@@ -50,7 +50,6 @@ public static void main(String[] args) {
 public static String getphoto(InputStream is) throws IOException {
 	String location="download.jpg";
 	FileOutputStream fos=new FileOutputStream(location);
-	byte[] image=new byte[1024];
 	int data=is.read();
 	while(data!=-1) {
 		fos.write(data);

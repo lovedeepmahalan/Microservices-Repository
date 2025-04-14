@@ -18,12 +18,9 @@ try {
 connection = MakeConnection_1.dbConnection();
 // 2. Create a Statement Object
 if (connection != null) {
-
-preparedStatement =
-connection.prepareStatement(SQL_SELECT_QUERY);
-
+	preparedStatement = connection.prepareStatement(SQL_SELECT_QUERY);
 }
-Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
 if (preparedStatement != null && scanner != null) {
 System.out.print("Enter the id of the user:: ");
 id = scanner.nextInt();

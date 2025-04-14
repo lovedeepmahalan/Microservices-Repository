@@ -2,11 +2,12 @@ package in.pwskills.nitin.bean;
 
 import java.time.LocalDate;
 
+import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Cheque_Payment")
+@DiscriminatorValue(value="ChequePayment")
 public class Chequepayment extends Payment {
 
 	static {

@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="payment")
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorColumn(name="payment_mode" ,discriminatorType = DiscriminatorType.STRING,length=20)
 public abstract class Payment {
 

@@ -23,5 +23,4 @@ public class CustomizedResponse extends HttpServletResponseWrapper {
 		CustomizedWriter myWriter = new CustomizedWriter(out);
 		return myWriter;
 	}
-
 }

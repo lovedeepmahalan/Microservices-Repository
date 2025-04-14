@@ -1,14 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta charset="ISO-8859-1">
+<title>OUTPUT</title>
 </head>
 <body>
 	<h1 style="color:red; text-align: center;">
-	Sorry for the inConvinence caused...... Will resume shortly.....
+		Sorry for the inconvinence caused...... Will resume shortly.....
 	</h1>
 </body>
 </html>

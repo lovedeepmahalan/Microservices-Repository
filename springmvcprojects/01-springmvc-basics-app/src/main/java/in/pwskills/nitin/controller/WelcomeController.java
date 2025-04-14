@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller //HTTP methods(GET/POST) + @Component
-@RequestMapping("/")
+@RequestMapping("/springmaven")
 public class WelcomeController {
 
 	static {

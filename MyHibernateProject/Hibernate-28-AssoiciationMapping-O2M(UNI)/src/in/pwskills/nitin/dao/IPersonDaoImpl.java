@@ -43,7 +43,7 @@ public class IPersonDaoImpl implements IPersonDao{
 			person.setNumber(Set.of(phnno,phnno2));
 			
 			phnno.setPerson(person);
-			phnno.setPerson(person);
+			phnno2.setPerson(person);
 			session.save(person);
 			flag = true;
 
@@ -94,7 +94,7 @@ public class IPersonDaoImpl implements IPersonDao{
 			person.setNumber(Set.of(phnno,phnno2));
 			
 			phnno.setPerson(person);
-			phnno.setPerson(person);
+			phnno2.setPerson(person);
 			session.save(phnno);
 			session.save(phnno2);
 			flag = true;

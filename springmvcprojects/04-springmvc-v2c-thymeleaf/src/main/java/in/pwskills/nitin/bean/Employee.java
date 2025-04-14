@@ -3,10 +3,12 @@ package in.pwskills.nitin.bean;
 import java.io.Serializable;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.ToString;
 
 @AllArgsConstructor
 @ToString
+@Data
 public class Employee implements Serializable {
 
 	/**

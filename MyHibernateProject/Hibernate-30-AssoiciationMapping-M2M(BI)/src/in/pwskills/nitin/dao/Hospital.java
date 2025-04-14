@@ -25,15 +25,15 @@ public class Hospital implements DoctorAndPatientDAO {
 			transaction = session.beginTransaction();
 			
 			Doctor d1=new Doctor();
-			d1.setHospital("Ravi Choudhary");
+			d1.setDoctName("Ravi Choudhary");
 			d1.setHospital("PVC");
 			
 			Doctor d2=new Doctor();
-			d2.setHospital("Alka Choudhary");
+			d2.setDoctName("Alka Choudhary");
 			d2.setHospital("Birla");
 
 			Doctor d3=new Doctor();
-			d3.setHospital("Sachin Choudhary");
+			d3.setDoctName("Sachin Choudhary");
 			d3.setHospital("Oscar");
 			
 			Patient p1=new Patient();
@@ -90,15 +90,15 @@ public class Hospital implements DoctorAndPatientDAO {
 			transaction = session.beginTransaction();
 			
 			Doctor d1=new Doctor();
-			d1.setHospital("Ravi Choudhary");
+			d1.setDoctName("Ravi Choudhary");
 			d1.setHospital("PVC");
 			
 			Doctor d2=new Doctor();
-			d2.setHospital("Alka Choudhary");
+			d2.setDoctName("Alka Choudhary");
 			d2.setHospital("Birla");
 
 			Doctor d3=new Doctor();
-			d3.setHospital("Sachin Choudhary");
+			d3.setDoctName("Sachin Choudhary");
 			d3.setHospital("Oscar");
 			
 			Patient p1=new Patient();
@@ -163,7 +163,7 @@ public class Hospital implements DoctorAndPatientDAO {
 	@Override
 	public void loadRecordUsingChild() {
 		Session session=HibernateUtil.getSession();
-		Query<Patient> query=session.createQuery("from Doctor");
+		Query<Patient> query=session.createQuery("from Patient",Patient.class);
 		List<Patient> list=query.getResultList();
 		list.forEach(patient->{
 			System.out.println(patient);

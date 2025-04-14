@@ -20,10 +20,10 @@ public class FirstServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//While dispatching the request the new request object will be created and data of 
 		//request objected will be transfered into new object and some added data also be in new object
-		System.out.println("First servlet reqest object ::"+request.getClass().getName());
+		System.out.println("First servlet reqest object ::"+request.getClass().hashCode());
 		//While dispatching the response object new object and the data also be transfered into new data
 		
-		System.out.println("First servlet response hashcode ::"+response.getClass().getName());
+		System.out.println("First servlet response hashcode ::"+response.getClass().hashCode());
 		System.out.println("REquest Processing");
 		PrintWriter out=response.getWriter();
 		out.println("<h1 style='text-align: center; color: Green;'>Request from first servlet</h1>");

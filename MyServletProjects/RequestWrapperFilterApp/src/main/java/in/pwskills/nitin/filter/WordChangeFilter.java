@@ -50,7 +50,7 @@ public class WordChangeFilter extends HttpFilter implements Filter {
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 		System.out.println("WordChangeFilterRequestProcessing :: WordChangeFilter.doFilter()");
 		
-		CustomizedRequest req = new CustomizedRequest((HttpServletRequest) request);
+		CustomizedRequest req = new CustomizedRequest((HttpServletRequest)request);
 		
 		// pass the request along the filter chain
 		chain.doFilter(req, response);

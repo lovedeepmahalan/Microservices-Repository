@@ -40,6 +40,12 @@
   <filter-name>DemoFilter1</filter-name>
   <url-pattern>/test2</url-pattern>
   <dispatcher>REQUEST</dispatcher>
+  <filter-name>DemoFilter1</filter-name>
+  <url-pattern>/test2</url-pattern>
+  <dispatcher>REQUEST</dispatcher>
+  <filter-name>DemoFilter1</filter-name>
+  <url-pattern>/test2</url-pattern>
+  <dispatcher>REQUEST</dispatcher>
   <dispatcher>FORWARD</dispatcher>
   <dispatcher>INCLUDE</dispatcher>
   <dispatcher>ERROR</dispatcher>

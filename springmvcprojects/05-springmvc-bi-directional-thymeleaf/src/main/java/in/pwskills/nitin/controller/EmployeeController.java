@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import in.pwskills.nitin.bean.Employee;
 
 @Controller
-@RequestMapping(value = "/employee")
+@RequestMapping(value = "/employeeController")
 public class EmployeeController {
 
 	/***

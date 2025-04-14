@@ -24,7 +24,7 @@ import javax.sql.DataSource;
 public class PooledServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static final String Sql_Query = "insert into student(`sid`,`sname`,`sage`,`saddress`) values(?,?,?,?)";
-    @Resource(name="JNDC")
+    @Resource(name="jdbc/EmployeeDB")
     DataSource dataresource;
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub

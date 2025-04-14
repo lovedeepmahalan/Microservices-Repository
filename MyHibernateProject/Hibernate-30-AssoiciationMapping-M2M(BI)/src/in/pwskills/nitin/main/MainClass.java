@@ -7,6 +7,8 @@ public class MainClass {
 	public static void main(String[] args) {
 		Hospital hos=new Hospital();
 		hos.saveRecordUsingParent();
+		hos.loadRecordUsingChild();
+		
 	}
 
 }

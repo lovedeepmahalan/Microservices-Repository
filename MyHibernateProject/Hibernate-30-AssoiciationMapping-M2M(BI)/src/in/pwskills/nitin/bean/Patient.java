@@ -15,7 +15,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Patient_M2M_Mapping(BI)")
+@Table(name="Patient_M2M_Mapping")
 public class Patient implements Serializable{
 
 	/**
